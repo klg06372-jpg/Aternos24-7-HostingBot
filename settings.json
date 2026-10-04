@@ -1,7 +1,7 @@
 {
-  "name": "AFK Bot",
+  "name": "dgcxh",
   "bot-account": {
-    "username": "YourBotUsername",
+    "username": "2854",
     "password": "",
     "type": "offline"
   },
@@ -31,11 +31,11 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "I like to play Minecraft!"
+        "",
+        ""
       ]
     },
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
@@ -76,7 +76,7 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": true,
+      "disconnect": false,
       "chat": false
     }
   },
